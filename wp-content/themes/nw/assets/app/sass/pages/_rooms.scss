@@ -1,0 +1,48 @@
+.slide-cont.-rooms {
+    .slide-block {
+        background-color: $brand-brown;
+    }
+}
+
+.two-pane-cont {
+  display: flex;
+  .block {
+    width: 50%;
+    padding: 100px;
+  }
+}
+
+.block {
+  &.-ammenities {
+    .block-title {
+      display: 
+    }
+    .title {
+      font-family: $brand-font;
+      font-weight: 200;
+      font-size: 40px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: $brand-brown;
+      margin: 0;
+    }
+
+    .line {
+      width: 100px;
+      height: 2px;
+      background: $brand-brown;
+      margin: 10px 0;
+    }
+
+    .desc {
+      font-family: $brand-font;
+      font-weight: 200;
+      font-size: 16px;
+      color: $brand-brown;
+    }
+
+  }
+  &.-specs {
+    background: $brand-gray;
+  }
+}

@@ -1,0 +1,18 @@
+a.outline-btn {
+    display: inline-block;
+    font-family: $brand-font;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: $white;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: 1px solid $white;
+    transition: all 0.2s ease-in;
+
+    &:hover {
+        background: $white;
+        color: $black;
+        text-decoration: none;
+    }
+}

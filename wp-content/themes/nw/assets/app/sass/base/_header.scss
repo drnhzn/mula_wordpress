@@ -1,0 +1,51 @@
+header {
+    padding: 20px 0;
+    background: $brand-brown;
+}
+
+.header {
+    @extend .clearfix;
+
+    > .logo-cont {
+        float: left;
+    }
+
+    > .nav-cont {
+        float: right;
+        margin-top: 10px;
+    }
+
+}
+
+.logo-cont {
+    > .logo {
+        max-width: 100px;
+        width: 100%;
+        height: auto;
+    }
+}
+
+.main-nav {
+    list-style: none;
+
+    > li {
+        display: inline-block;
+        margin: 0 5px;
+
+        a {
+            font-family: $brand-font;
+            color: $white;
+            text-transform: uppercase;
+            font-weight: 300;
+            letter-spacing: 1px;
+            font-size: 14px;
+            transition: color 0.2s ease-in;
+            text-decoration: none;
+            &.active, &:hover {
+                border-bottom: 2px solid $brand-yellow;
+                color: $brand-yellow;
+                text-decoration: none;
+            }
+        }
+    }
+}

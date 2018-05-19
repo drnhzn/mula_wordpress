@@ -1,0 +1,34 @@
+/* VENDORS */
+
+    // bower:scss
+    @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+    @import "bower_components/font-awesome/scss/font-awesome.scss";
+    @import "bower_components/slick-carousel/slick/slick.scss";
+    // endbower
+
+
+/* Variables */
+@import "base/variables";
+
+/* Fonts */
+@import "base/fonts";
+
+/* Mixins */
+@import "base/mixins";
+
+/* Sprites */
+@import "base/sprites";
+
+/* Global Styles */
+@import "base/globals";
+@import "base/header";
+@import "base/footer";
+
+/* Components */
+@import "components/*.scss"
+
+
+/* Pages */
+@import "pages/*.scss";
+
+
